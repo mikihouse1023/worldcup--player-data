@@ -1,0 +1,109 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.No {
+    width: 60px;
+
+}
+
+.uniform {
+    width: 150px;
+}
+
+.position {
+    width: 220px;
+}
+
+.birth {
+    width: 180px;
+}
+
+.weight {
+    width: 90px;
+}
+
+.height {
+    width: 90px;
+}
+
+.詳細 {
+    width: 100px;
+}
+
+.details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+
+table th {
+    width: 900px;
+    height: 50px;
+    background: #eee;
+    font-size: 20px;
+}
+
+/*td要素の背景色を全て「background: #eee;」で薄いグレーに設定し、
+その後に擬似クラスを使って偶数の行にあるtd要素のみ
+「background: #fff;」で背景色を白にしています。*/
+
+
+table td {
+    height: 50px;
+    background: #eee;
+    font-size: 20px;
+    text-align: center;
+}
+
+/*擬似クラス「:nth-child(odd)」は偶数（0番目、2番目、4番目…）を指定する。
+　※奇数の要素のための擬似クラス「:nth-child(odd)」。*/
+table tr:nth-child(even) td {
+    background: #fff;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    list-style: none;
+    /* 黒い点を消去 */
+
+}
+
+.pagination li {
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+.details_body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.player_details {
+
+    text-align: center;
+
+}
+
+.item {
+    width: 600px;
+    height: 600px;
+    margin: auto;
+}
+
+.item th {
+    width: 150px;
+}
+
+.戻る {
+    font-size: 30px;
+}
