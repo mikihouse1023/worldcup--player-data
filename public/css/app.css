@@ -1,0 +1,263 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.detail {
+    width: 100%;
+}
+
+.No {
+    width: 60px;
+
+}
+
+.uniform {
+    width: 150px;
+}
+
+.position {
+    width: 220px;
+}
+
+.club {
+    width: 400px;
+}
+
+.name {
+    width: 400px;
+}
+
+.birth {
+    width: 180px;
+}
+
+.weight {
+    width: 90px;
+}
+
+.height {
+    width: 90px;
+}
+
+.詳細 {
+    width: 100px;
+}
+
+.編集 {
+    width: 100px;
+}
+
+.削除 {
+    width: 100px;
+}
+
+.details {
+    width: 70px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: aqua;
+    color:white;
+
+}
+
+.edit {
+    width: 70px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color:chartreuse;
+    color:white;
+}
+
+.delete {
+    width: 70px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color:red;
+    color:white;
+}
+
+table th {
+    width: 900px;
+    height: 50px;
+    background: #eee;
+    font-size: 20px;
+}
+
+/*td要素の背景色を全て「background: #eee;」で薄いグレーに設定し、
+その後に擬似クラスを使って偶数の行にあるtd要素のみ
+「background: #fff;」で背景色を白にしています。*/
+
+
+table td {
+    height: 50px;
+    background: #eee;
+    font-size: 20px;
+    text-align: center;
+}
+
+/*擬似クラス「:nth-child(odd)」は偶数（0番目、2番目、4番目…）を指定する。
+　※奇数の要素のための擬似クラス「:nth-child(odd)」。*/
+table tr:nth-child(even) td {
+    background: #fff;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    list-style: none;
+    /* 黒い点を消去 */
+
+}
+
+.pagination li {
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+.detail_body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.player_details {
+
+    text-align: center;
+
+}
+
+.item {
+    width: 600px;
+    height: 600px;
+    margin: auto;
+}
+
+.item th {
+    width: 150px;
+}
+
+#back_button {
+    width: 500px;
+    height: 40px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: black;
+}
+
+#back_button a {
+    color: white;
+}
+
+
+.detail_edit {
+    font-size: 30px;
+}
+
+.detail_back {
+    font-size: 30px;
+}
+
+.login_body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:500px;
+    height: 400px;
+}
+
+form {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.email{
+display: flex;
+align-items: center;
+height: 150px;
+font-size: 30px;
+}
+
+
+.email input[type="email"] {
+    width: 200px;
+    height: 40px; /* 入力フォームの高さを固定 */
+}
+
+.password{
+display: flex;
+height: 100px;
+ font-size: 30px; 
+ padding-left:30px;
+}
+
+.password input[type="password"] {
+    width:200px;
+    height: 40px; /* 入力フォームの高さを固定 */
+}
+
+.password_password{
+padding-right:30px;
+}
+
+#login_button{
+width:260px;
+height:50px;  
+border-radius: 30px;
+background-color: chartreuse;
+font-size: 20px;
+}
+
+.error {
+    color: red;
+    font-size: 15px;
+}
+
+.edit_item {
+    width: 300px;
+    height: 30px;
+}
+
+
+.button_edit {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+#edit_edit_button {
+    width: 500px;
+    height: 40px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: yellow;
+    font-size: 30px;
+}
+
+#edit_back_button {
+    width: 500px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: black;
+    font-size: 30px;
+}
+
+#edit_back_button a {
+    color: white;
+}
